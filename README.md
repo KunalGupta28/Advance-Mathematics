@@ -19,7 +19,6 @@ Continuous environmental air quality measurements with real-world noise and vari
 
 The dataset is first cleaned by handling missing values and outliers.
 A nonlinear transformation is applied to the NO2 feature using a roll-number-dependent function:
-
 z=x+a_r*sin(b_r*x)
 where:
 𝑎_r​=0.05(rmod7)
