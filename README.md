@@ -20,13 +20,13 @@ Continuous environmental air quality measurements with real-world noise and vari
 The dataset is first cleaned by handling missing values and outliers.
 A nonlinear transformation is applied to the NO2 feature using a roll-number-dependent function:
 z=x+a_r*sin(b_r*x)
+
 where:
-𝑎_r​=0.05(rmod7)
-b_r=0.3((rmod5)+1)
-r = University Roll Number
+𝑎_r​=0.05(rmod7), b_r=0.3((rmod5)+1) and r = University Roll Number.
 This transformation ensures that each student works with a unique modified dataset.
 After transformation, a probability density function is learned:
 𝑝^(z)=ce^(−λ(z−μ))^2
+
 The parameters 𝜆, μ, and 𝑐 are estimated using Maximum Likelihood Estimation (MLE) to best fit the transformed data.
 
 3. Input / Output
