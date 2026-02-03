@@ -63,4 +63,4 @@ Overall, the project successfully models the probability density of transformed 
 6. GitHub Link
 
 Project Repository:
-👉 https://github.com/KunalGupta28/Probability-Density-Function-Learning
+👉 https:https://github.com/KunalGupta28/PDF_Estimation.git
